@@ -48,12 +48,16 @@ $(document).ready(function() {
     let movie = $('#movie_name').val();
     let time = parseInt($('#time').val());
     let age = $('#age').val();
+    let numberOfTickets = parseInt($('#number_of_tickets').val());
     let newTicket = new Ticket(movie, time, age);
     let singlePrice = newTicket.getPrice();
+    let totalDue = singlePrice * numberOfTickets;
     $('.bottom-return').slideDown();
     $('.movie_title').text(movie);
     $('.movie_time').text(`${time}:00`);
     $('.purchaser_age').text(age);
     $('.ticket_price').text(`$${singlePrice}`);
+    $('.ticket_number').text(numberOfTickets)
+    $('.total_due').text(`$${totalDue}.00`)
   });
 });
