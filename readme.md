@@ -14,7 +14,7 @@ _This is a webpage that I made to practice BDD and object-oriented Javascript wi
 **Program Gathers User Input, creating a new ticket object** | User input: 'Colette 10:00 SENIOR 2 tickets' | Output: ticket {first: movie: Colette, time: 10, age: senior} numberoftickets = 2 |
 **Program calculates ticket prices based off showtime, agegroup, and which movie was selected** | Input: ticket {first: movie: Colette, time: 10, age: senior} numberoftickets = 2| Output: basePrice = 12 -2(time) - 5(age) = 5 |
 **Program calculates for the number of tickets** | ticketPrice: 5, numberoftickets = 2| Output: 10  |
-**Program displays all information to the user** | User input: 'Colette 10:00 SENIOR 2 tickets' | Output: MOVIE.................. Tea With the Dames<br/> SHOWING................ 16:00<br/> AGE GROUP.............. SENIOR<br/> TICKET PRICE........... $10<br/> NUMBER OF TICKETS...... 5<br/> TOTAL DUE.............. $50.00 <br/> |
+**Program displays all information to the user** | User input: 'Colette 10:00 SENIOR 2 tickets' | Output: MOVIE.................. Colette<br/> SHOWING................ 10:00<br/> AGE GROUP.............. SENIOR<br/> TICKET PRICE........... $5<br/> NUMBER OF TICKETS...... 2<br/> TOTAL DUE.............. $10.00 <br/> |
 
 ## Setup/Installation Requirements
 
