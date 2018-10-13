@@ -34,7 +34,7 @@ img:hover {
   grid-column: 1/4;
   background-color:#303030;
   color:#F80000;
-  text-align:center;
+  text-align:left;
   border-radius:5px;
   padding:1em;
 }
@@ -50,7 +50,6 @@ img:hover {
 
 .left-panel h3 {
   text-align:center;
-  text-decoration: underline;
   font-style:italic;
 }
 
@@ -130,4 +129,11 @@ img:hover {
   text-align:center;
   font-size:.75em;
   font-weight:lighter;
+}
+
+.red-text {
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+  color:red;
 }
