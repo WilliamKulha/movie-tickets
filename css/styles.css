@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display');
+font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
+
+h1 h2 h3 h4 h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.wrapper {
+  display:grid;
+  grid-template-columns: 3, 1fr;
+  grid-gap:1.5em;
+  grid-auto-rows: minmax(100px, auto);
+  padding:1em;
+}
+
+.banner {
+  grid-row:1;
+  grid-column: 1/4;
+  background-color:#303030;
+  color:#F80000;
+  text-align:center;
+  border-radius:5px;
+  padding:1em;
+}
+
+.left-panel {
+  grid-row:2/3;
+  grid-column:1;
+  border-radius:5px;
+  box-shadow: 1px 1px 1px 1px #303030;
+  border-width:.15em;
+  padding:1em;
+}
+
+.left-panel h3 {
+  text-align:center;
+  text-decoration: underline;
+  font-style:italic;
+}
+
+.movie-selector {
+  grid-row:2;
+  grid-column:2;
+  padding:1em;
+  border-width:2px;
+  border-style:solid;
+  border-color: #F80000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #303030;
+}
+
+.movie-selector2 {
+  grid-row:2;
+  grid-column:3;
+  padding:1em;
+  border-width:2px;
+  border-style:solid;
+  border-color: #F80000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #303030;
+}
+
+.movie-selector3 {
+  grid-row:3;
+  grid-column:2;
+  padding:1em;
+  border-width:2px;
+  border-style:solid;
+  border-color: #F80000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #303030;
+}
+
+.movie-selector4 {
+  grid-row:3;
+  grid-column: 3;
+  padding:1em;
+  border-width:2px;
+  border-style:solid;
+  border-color: #F80000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #303030;
+}
+
+.total-bottom {
+  grid-column:2/4;
+  grid-row:4;
+  padding:1em;
+
+}
